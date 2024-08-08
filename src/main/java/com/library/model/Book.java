@@ -1,6 +1,6 @@
-package main.java.com.library.entities;
+package main.java.com.library.model;
 
-public class book {
+public class Book {
 
     private int id;
     private String title;
@@ -9,7 +9,7 @@ public class book {
     private int quantity;
 
 
-    public book(int id, String title, String author, String ISBN, int quantity) {
+    public Book(int id, String title, String author, String ISBN, int quantity) {
         this.id = id;
         this.title = title;
         this.author = author;

@@ -1,4 +1,4 @@
-package main.java.com.library.entities;
+package main.java.com.library.model;
 
 public class Member {
     private int id;

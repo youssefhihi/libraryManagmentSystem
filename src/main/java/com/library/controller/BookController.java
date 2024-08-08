@@ -1,2 +1,4 @@
-package main.java.com.library.controller;public class BookController {
+package main.java.com.library.controller;
+
+public class BookController {
 }
