@@ -14,7 +14,6 @@ public class BookService {
     }
 
     public void addBook(Book book) throws SQLException {
-        // You could add validation logic here
         bookRepository.addBook(book);
     }
 
@@ -27,7 +26,6 @@ public class BookService {
     }
 
     public void updateBook(Book book) throws SQLException {
-        // Additional business rules or validations can be added here
         bookRepository.updateBook(book);
     }
 

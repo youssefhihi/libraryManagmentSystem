@@ -3,11 +3,12 @@ package main.java.com.library.model;
 public class Member {
     private int id;
     private String fullName;
-    private String adress;
+    private String address;
 
-    public Member( String fullName, String adress) {
+    public Member( int id, String fullName, String address) {
+        this.id = id;
         this.fullName = fullName;
-        this.adress = adress;
+        this.address = address;
     }
     public int getId() {
         return id;
@@ -15,13 +16,13 @@ public class Member {
     public String getFullName() {
         return fullName;
     }
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

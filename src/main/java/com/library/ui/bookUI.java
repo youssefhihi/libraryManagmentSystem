@@ -25,7 +25,7 @@ public class bookUI {
         int choice;
 
         do {
-            System.out.println("\nLibrary System Menu:");
+            System.out.println("\nBooks Management Menu:");
             System.out.println("1. Add Book");
             System.out.println("2. Get Book by ID");
             System.out.println("3. Get All Books");
@@ -54,7 +54,7 @@ public class bookUI {
                     deleteBook(scanner);
                     break;
                 case 6:
-                    System.out.println("Exiting the application.");
+                    System.out.println("Exiting the the books management.");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
